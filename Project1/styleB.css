@@ -1,0 +1,18 @@
+.boxB {
+    display: flex;
+}
+.boxB__list {
+    width: 100px;
+    height: 150px;
+    background-color: #eeeff2;
+    border-left: 10px dotted #D0D0FF;
+    margin-left: 10px;
+    font-size: 40px;
+    font-family: Tahoma, Geneva, Verdana, sans-serif;
+    padding: 10px 10px;
+}
+.boxB__list:hover {
+    cursor: pointer;
+    background-color: yellow;
+    color: goldenrod;
+}
