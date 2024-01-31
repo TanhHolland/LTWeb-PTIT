@@ -1,0 +1,8 @@
+body {
+    background: #f32020;
+    background: linear-gradient(158deg,#f32020 0%, #1ada60 80%);
+}
+.boxA__list,
+.boxB__list {
+    box-shadow: 0px 0px 9px 1px rgba(0,0,0,0.75);
+}

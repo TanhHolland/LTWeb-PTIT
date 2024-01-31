@@ -7,12 +7,21 @@
     background-color: #eeeff2;
     border-left: 10px dotted #D0D0FF;
     margin-left: 10px;
+}
+.boxB__text {
+    display: block;
     font-size: 40px;
+    margin-top: 10px;
+    margin-left: 10px;
     font-family: Tahoma, Geneva, Verdana, sans-serif;
-    padding: 10px 10px;
 }
 .boxB__list:hover {
     cursor: pointer;
     background-color: yellow;
     color: goldenrod;
+}
+.boxB__list:last-child {
+    position: fixed;
+    bottom: 0;
+    right: 0;
 }
